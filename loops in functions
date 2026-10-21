@@ -1,0 +1,36 @@
+# Print numbers from 1 to 10
+def print_numbers():
+    for i in range(1, 11):
+        print(i)
+
+print_numbers()
+# Print a multiplication table
+def multiplication_table(number):
+    for i in range(1, 11):
+        print(number, "x", i, "=", number * i)
+
+multiplication_table(5)
+# Calculate the sum of numbers
+def calculate_sum(number):
+    total = 0
+    for i in range(1, number + 1):
+        total = total + i
+    print("Sum =", total)
+
+calculate_sum(5)
+# Print even numbers
+def print_even():
+    for i in range(1, 21):
+        if i % 2 == 0:
+            print(i)
+
+print_even()
+# Count down using a while loop
+def countdown(number):
+    while number >= 1:
+        print(number)
+        number = number - 1
+    print("Time's up!")
+
+countdown(5)
+
