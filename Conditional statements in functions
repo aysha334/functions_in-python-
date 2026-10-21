@@ -1,0 +1,50 @@
+# Check Whether a Number Is Positive, Negative, or Zero
+def check_number(number):
+    if number > 0:
+        print("Positive number")
+    elif number < 0:
+        print("Negative number")
+    else:
+        print("Zero")
+
+check_number(10)
+# Check Whether a Person Is Eligible to Vote
+def check_voting_age(age):
+    if age >= 18:
+        print("Eligible to vote")
+    else:
+        print("Not eligible to vote")
+
+check_voting_age(17)
+# Find the Largest of Two Numbers
+def find_largest(a, b):
+    if a > b:
+        print(a, "is larger")
+    elif b > a:
+        print(b, "is larger")
+    else:
+        print("Both numbers are equal")
+
+find_largest(15, 10)
+# Check Whether a Number Is Even or Odd
+def check_even_odd(number):
+    if number % 2 == 0:
+        print("Even number")
+    else:
+        print("Odd number")
+
+check_even_odd(7)
+# Calculate Grades Based on Marks
+def calculate_grade(marks):
+    if marks >= 90:
+        print("Grade A")
+    elif marks >= 80:
+        print("Grade B")
+    elif marks >= 70:
+        print("Grade C")
+    elif marks >= 60:
+        print("Grade D")
+    else:
+        print("Grade F")
+
+calculate_grade(85)
